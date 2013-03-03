@@ -17,11 +17,9 @@ select,
 textarea {
     color: #222;
 }
-
-body {
     font-size: 1em;
     line-height: 1.4;
-    background-color: 040408;
+    background-color: #040408;
 }
 
 /*
@@ -93,25 +91,96 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body {
+    margin: 0;
+    background:url(../background.jpg);
+    -moz-background-size:100% 100%;
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+}
 
 
 
 
+div {
+    background-color: #D8D8D8;
+    opacity: 0.8;
+    margin: 0;
+    padding: 3px;
+    border: dashed 1px;
+   
+    
+}
 
+.header{
+    margin: 0px;
+    height: 66px;
+     position: static;
+}
 
+.primeryNav{
+    margin: 0px;
+    height: 25px;
+    
+    
+}
 
+.secondaryNav{
+    margin: 0px;
+    height: 16px;
+    float: none;
+}
 
+#mainPageFeeds{
+    margin: 0px;
+    width: 140px;
+    height: 453px;
+    float: left
+}
 
+#mainPageNews{
+    margin: 0px;
+    width: 227px;
+    height: 453px;
+    float: left;
+}
 
+#mainPageFeature{
+    margin: 0px;
+    width: 593px;
+    height: 280px;
+    float: left;
+}
 
+#mainPageContent{
+    margin: 0px;
+    width: 365px;
+    height: 173px;
+    float: left;
+}
 
+.ad{
+   margin: 0px;
+    width: 228px;
+    height: 173px;
+    float: left;
+}
 
-
-
+.footer{
+   margin: 0px;
+   height: 66px;
+   float: !important;
+}
+.copyRights{
+    margin: 0px;
+    height: 106px;
+    float: !important;
+    
+}
 
 
 /* ==========================================================================
-   Helper classes
+   Helper classesssssss
    ========================================================================== */
 
 /*
