@@ -21,6 +21,8 @@ nav,
 section,
 summary {
     display: block;
+    border: 1 px;
+    
 }
 
 /**
@@ -88,9 +90,7 @@ textarea {
  * Address margins handled incorrectly in IE 6/7.
  */
 
-body {
-    margin: 0;
-}
+
 
 /* ==========================================================================
    Links
