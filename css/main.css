@@ -99,45 +99,56 @@ body {
     background-repeat:no-repeat;
 }
 
-
-div {
-    background-color: #D8D8D8;
-    opacity: 0.8;
-    margin: 0;
-    padding: 3px;
-    border: dashed 1px;
-   
-   
+div.main {
+    background-color: red;
+    width: 960px;
+    margin: 0 auto 0 auto;
+    hight: 560px;
+    overflow: auto;
+    border: none;
+    
+ 
 }
-
-.header{
+.header1{
+    margin: 0 auto 0 auto;
     clear: both;
+    width: 960px;
     height: 66px;
+    background-color: #D8ffD8;
+    
+    
 }
 
-.primeryNav{
+.navs{
+     margin: 0 auto 0 auto;
     clear:both;
-    margin: 0px;
-    height: 25px;    
+    width: 960px;
+}
+.primaryNav{
+    height: 25px;
+    background-color: #E1F5A9;
 }
 
 .secondaryNav{
-    clear: both;
-    margin: 0px;
-    height: 16px;
+    height: 13px;
+    padding-bottom: 3px;
+    background-color: #F5A9A9;
 }
 
 
 .leftArea{
  float: left;
  width: 367px;
+ background-color: #31B404;
+
  
     
 }
 
 .rightArea{
-    float: right;
-    
+    width: 593px;
+    margin-left: 367px;
+    background-color: #B404AE;
 }
 
 
@@ -192,9 +203,14 @@ div {
 
 */
 footer{
+    margin: 0 auto 0 auto;
     clear: both;
+    height: 66px;
+    width: 960px;
+    background-color: #BDBDBD;
+    opacity: #BDBDBD;
+    
 
-   height: 66px;
    
 }
 
