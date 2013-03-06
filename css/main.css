@@ -100,8 +100,6 @@ body {
 }
 
 
-
-
 div {
     background-color: #D8D8D8;
     opacity: 0.8;
@@ -109,27 +107,41 @@ div {
     padding: 3px;
     border: dashed 1px;
    
-    
+   
 }
 
 .header{
-    margin: 0px;
+    clear: both;
     height: 66px;
-     position: static;
 }
 
 .primeryNav{
+    clear:both;
     margin: 0px;
-    height: 25px;
-    
-    
+    height: 25px;    
 }
 
 .secondaryNav{
+    clear: both;
     margin: 0px;
     height: 16px;
-    float: none;
 }
+
+
+.leftArea{
+ float: left;
+ width: 367px;
+ 
+    
+}
+
+.rightArea{
+    float: right;
+    
+}
+
+
+/*
 
 #mainPageFeeds{
     margin: 0px;
@@ -178,6 +190,13 @@ div {
     
 }
 
+*/
+footer{
+    clear: both;
+
+   height: 66px;
+   
+}
 
 /* ==========================================================================
    Helper classesssssss
