@@ -264,12 +264,6 @@ div.main {
     
 }
 
-.leftArea{
-    float: left;
-    width: 367px;
-    height: 453px;
-    
-}
 
 
 .rightArea{
@@ -323,6 +317,13 @@ div.main {
     border-radius: 10px;
 	text-align:center;
 }
+.leftArea{
+    float: left;
+    width: 367px;
+    height: 453px;
+    
+}
+
 
 .feeds{
     width: 130px;
