@@ -153,10 +153,40 @@ p{
 
 }
 .header1 h1{
+    font-weight: bold;
     padding: 10px 0px 0px 20px;
-    color: white;
+   
+    text-shadow: 7px 7px 29px white;
 	
 	}
+        
+.branding{
+    float: left;
+}
+.branding a{
+    color: white;
+    text-decoration:none;
+}
+
+.headerSearchBoxWraper{
+    float: right;
+    margin: 2px 10px ;
+    color: white;
+    
+}
+
+#headerSearch{
+    font-weight: bold;
+    margin: 10px 0px 0px 0px;
+}
+
+#searchBox{
+    
+    box-shadow: 5px 5px 29px white;
+    background-color: rgba(255,255,255, .8);
+    border-style: none;
+    font-family: monospace;
+}
         
 /*******************************
        Navigation style
@@ -212,11 +242,11 @@ p{
 	left:0;
 	display: none;
 	margin:0px 0px 0px 0px;
-        /*need to fix chrome bug!*/
-        -webkit-padding:0px 0px 0px 0px;
+        /*trying to fix chrome bug!*/
+        padding: -webkit-padding 0px 0px 0px 0px;
 	padding:15px 0px 0px 0px;
 	white-space: nowrap;
-	font-weight: normal;
+	
 	font-size:1em;	
 }
 .nav2 li{
@@ -258,7 +288,7 @@ div.main {
 
 .leftArea{
     float: left;
-    width: 550px;    
+    width: 570px;    
 }
 
 .ad_top{
@@ -268,7 +298,7 @@ div.main {
 }
 
 .rightArea{
-    width: 350px;
+    width: 370px;
     margin-left: 600px;
     background-color: none;
     background: none;
@@ -277,7 +307,8 @@ div.main {
     padding: 5px;
     /*border: solid 5px rgb(200,200,200);*/
     background: rgba(255,255,255,1);
-    margin: 10px auto 5px auto; 
+    margin: 10px auto 10px auto;
+    box-shadow: 3px 3px 10px 0px black;
 }
 .contentBlockHeader{
     margin: 0 auto 0 auto;
@@ -304,6 +335,7 @@ div.main {
 .featureImg{
    border: solid 5px;
    border-color: rgba(220,220,220,0.7);
+   box-shadow: 3px 3px 10px 0px black;
     
 }
 
@@ -321,10 +353,6 @@ div.main {
 }
 
 
-
-
-
-
 .footer{
     clear: both;
    margin:5px auto 0px auto;
@@ -337,18 +365,17 @@ div.main {
 
 .footerIcons{
     text-align: right;
-  
+  margin-right: 10px;
     
   
     
     
 }
 .footerIconsWraper{
-      
-
    
     
 }
+
 .footerIcons li{
    display: inline-block;
     position: relative;
@@ -361,6 +388,9 @@ div.main {
     width:320px;
     text-align: left;
     color: white;
+}
+.smIcon{
+    box-shadow: 5px 5px 30px white;
 }
 
 /* ==========================================================================
