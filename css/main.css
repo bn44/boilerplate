@@ -16,8 +16,9 @@ input,
 select,
 textarea {
     color: #222;
-}
-    font-size: 1em;
+
+    font-size: 1.1em;
+    
     line-height: 1.4em;
     background-color: #040408;
 }
@@ -104,6 +105,10 @@ body {
     background-color: rgb(150, 150, 150);
     font-family: "museo",serif;
 
+}
+a:hover{
+    color: red;
+    
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -234,6 +239,7 @@ p{
 
 .nav1 li:hover{
 	text-decoration:underline;
+        color: red;
 	}
 
 .nav2 {
